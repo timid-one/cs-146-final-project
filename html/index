@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<title>Martin Garrix Fan site</title>
+
+<body>
+<h1 align="center">My First Heading</h1>
+<p>My first paragraph.</p>
+	
+<div align="center", width=300, height=500, color="red"> 
+	
+	
+<style type="text/css">
+#wrapper {
+	height: 1900px;
+	width: 1000px;
+	background-color: #A6A6A6;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#banner {
+	height: auto;
+	width: 1000px;
+}
+
+body {
+	background-attachment: fixed;
+	background-image: url();
+}
+#bio {
+	height: auto;
+	width: auto;
+	position: absolute;
+	left: 682px;
+	top: 359px;
+}
+#music {
+	height: auto;
+	width: auto;
+	position: absolute;
+	left: 27px;
+	top: 334px;
+}
+#media {
+	height: auto;
+	width: auto;
+	position: absolute;
+	left: 14px;
+	top: 74px;
+}
+#tour {
+	height: auto;
+	width: auto;
+	position: absolute;
+	left: 357px;
+	top: 260px;
+}
+#shop {
+	height: auto;
+	width: auto;
+	position: absolute;
+	left: 682px;
+	top: 46px;
+    }
+#point {
+	height: auto;
+	width: auto;
+	position: absolute;
+	left: 448px;
+	top: 275px;
+}
+#social {
+	height: auto;
+	width: auto;
+	position: absolute;
+	left: 682px;
+	top: 46px;
+    }
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+    <div id="banner"><img src="gifs/static.gif" width="1000" height="562" /></div>
+    <div id="bio"><a href="mad_decent.html"><img src="stills/MADDECENT-MD-LOGO clear.png" width="304" height="190" /></a></div>
+    <div id="music"><a href="major_lazer.html"><img src="stills/MAJOR_LAZER_logo clear white.png" width="299" height="217" /></a></div>
+    <div id="media"><a href="dino.html"><img src="stills/dinosaur clear.png" width="400" height="82" /></a></div>
+    <div id="tour"><img src="stills/Diplo_720x720 clear.png" width="302" height="302" /></div>
+    <div id="shop"><a href="jacku.html"><img src="stills/Jack_Ü_Logo1.png" width="300" height="202" /></a></div>
+    <div class="Heading">Recent Projects</div>
+	
+</body>
+
+	
+	
+	
+	</html>
