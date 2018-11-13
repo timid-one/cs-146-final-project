@@ -2,6 +2,35 @@ body {
 	background-color: black;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: lightgray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: lightgray;
+    color: black;
+}
+
 .header {
     color: white;
     font-weight: bold;
@@ -23,9 +52,10 @@ body {
 }
 
 .body-text {
-    color: white;
+    color: lightgray;
     font-size: 24pt;
     text-align: center;
+    padding-bottom: 5vh
 }
 
 .gallery {
@@ -42,14 +72,14 @@ body {
 }
 
 .caption-text {
-    color: white;
+    color: lightgray;
     font-size: 100%;
     font-style: italic;
     text-align: center;
 }
 
 .disclaimer-text {
-    color: white;
+    color: lightgray;
     font-size: 10pt;
     font-style: italic;
     text-align: center;
