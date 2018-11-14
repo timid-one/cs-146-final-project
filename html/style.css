@@ -38,9 +38,6 @@ li a:hover:not(.active) {
     text-align: center;
 }
 .center{
-    align-items: center;
-    align-content: center;
-    align-self: center;
     text-align: center;
 }
 
@@ -108,7 +105,6 @@ li a:hover:not(.active) {
     max-height: 158px;
     max-width: 20vw;
     padding-right: 2vw;
-    opacity: 1;
 }
 
 .grid-item-long{
@@ -117,7 +113,6 @@ li a:hover:not(.active) {
     padding-left: 2.5vw;
     padding-right: 5vw;
     max-width: 20vw;
-    opacity: 1;
     
 }
 .social {
