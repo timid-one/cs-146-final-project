@@ -12,8 +12,7 @@
 }
 
 body {
-	background-attachment: fixed;
-	background-image: url(https://i.pinimg.com/originals/85/27/2a/85272a71549d10620fa09f6756d6b765.jpg);
+	background-color: black;
 }
 #tour {
 	height: auto;
@@ -80,19 +79,24 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
- li {
+
+li {
     float: left;
 }
- li a {
+
+li a {
     display: block;
-    color: white;
+    color: lightgray;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
- li a:hover:not(.active) {
+
+li a:hover:not(.active) {
     background-color: #111;
 }
- .active {
-    background-color: #4CAF50;
+
+.active {
+    background-color: lightgray;
+    color: black;
 }
