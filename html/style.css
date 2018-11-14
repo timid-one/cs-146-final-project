@@ -75,13 +75,6 @@ li a:hover:not(.active) {
     text-align: center;
 }
 
-.disclaimer-text {
-    color: lightgray;
-    font-size: 10pt;
-    font-style: italic;
-    text-align: center;
-}
-
 .grid-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -98,26 +91,18 @@ li a:hover:not(.active) {
     padding-right: 2vw;
 }
 
-.grid-item-long{
-	height: auto;
-	width: auto;
-    padding-left: 2.5vw;
-    padding-right: 5vw;
-    max-width: 20vw;
-    
-}
-.social {
-	height: auto;
-	width: auto;
-    
-    }
-
-#banner {
+.banner {
     padding-top: 5vh;
     padding-bottom: 5vh;
 	height: 50vh;
 	width: 75vw;
     min-width: 200px;
     max-height: 300px;
-    align-items: center;
+}
+
+.disclaimer-text {
+    color: lightgray;
+    font-size: 10pt;
+    font-style: italic;
+    text-align: center;
 }
