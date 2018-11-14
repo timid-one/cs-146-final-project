@@ -41,7 +41,7 @@ li a:hover:not(.active) {
     text-align: center;
 }
 
-#portrait {
+.portrait {
     height: 60vw;
     width: 60vw;
     max-width: 480px;
