@@ -1,0 +1,127 @@
+
+body {
+  background-image: url(cs-146-final-project-master/html/images/logo.gif)
+}
+
+h1 {
+    color: red;
+    font-weight: bold;
+    font-size: 42pt;
+    text-align: center;
+}
+
+h2{
+    color: red;
+    font-size: 40pt;
+    text-align: center;
+    
+}
+
+
+
+img.profile{
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+}
+    
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: red;
+}
+
+
+#tabledisplay{
+    width:auto;
+    height:auto;
+    justify-content: center;
+}
+
+#tourdatetext{
+    color: red;
+    font-size: 16pt;
+    align-content: center;
+    font-weight: normal;
+    width:auto;
+    margin-bottom: 20px;
+    justify-content: center;
+    
+}
+
+#tourback2{
+    background-color: silver;
+    height: auto;
+    width: auto;
+}
+
+.tourback{
+    background-color: silver;
+    height: auto;
+    width: auto;
+    justify-content: space-around;
+    margin-left: auto;
+}
+
+table, th, td {
+    border-bottom: 1pt solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    width: 350px;
+    height: auto;
+}
+
+#tourdates
+{
+    color: black;
+    font: serif; 
+    border: solid 1pt black;
+    border-collapse: collapse;
+}
+
+.pictureback
+{
+    background-color: darkgray;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+}
