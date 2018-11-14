@@ -82,15 +82,6 @@ li a:hover:not(.active) {
     text-align: center;
 }
 
-.grid-wrapper-top {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    vertical-align: middle;
-    align-items: center;
-    background: rgba(222,222,222)
-}
-
 .grid-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
