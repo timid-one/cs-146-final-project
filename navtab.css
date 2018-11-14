@@ -12,7 +12,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: lightgray;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -23,9 +23,9 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: lightgray;
+    color: black;
 }
-
 
 /*  HTML
 <div>   
