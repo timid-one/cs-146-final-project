@@ -1,6 +1,6 @@
 #wrapper {
 	height: 200%;
-	width:auto;
+	width:80%;
 	background-color: #A6A6A6;
 	margin-right: auto;
 	margin-left: auto;
@@ -15,7 +15,8 @@
     text-align:center;
 }
 body {
-	background-color: black;
+	background-attachment: fixed;
+	background-image: url(http://i.imgur.com/nrCVBJH.jpg);
 }
 #tour {
 	height: auto;
@@ -67,7 +68,7 @@ body {
 	top: 46px;
 }
 #video {
-    padding-top: 140%;
+    padding-top: 80%;
     font-size: 20px;
     height: auto;
 }
@@ -164,24 +165,19 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
-
-li {
+ li {
     float: left;
 }
-
-li a {
+ li a {
     display: block;
-    color: lightgray;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-
-li a:hover:not(.active) {
+ li a:hover:not(.active) {
     background-color: #111;
 }
-
-.active {
-    background-color: lightgray;
-    color: black;
+ .active {
+    background-color: #4CAF50;
 }
