@@ -67,9 +67,12 @@ img {
 	max-height: 100%;
 	border: 5px solid gray;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	z-index:-1;
+	margin-left: 20px;
+	margin-right: 20px;
+    padding 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 
 	
 }
