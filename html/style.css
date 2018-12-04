@@ -39,6 +39,9 @@ li a:hover:not(.active) {
 }
 .center{
     text-align: center;
+		align-items: center;
+		align-self: center;
+		align-content: center;
 }
 
 .portrait {
@@ -84,8 +87,8 @@ li a:hover:not(.active) {
 }
 
 .grid-item-square{
-	height: auto;
-	width: auto;
+		height: auto;
+		width: auto;
     max-height: 158px;
     max-width: 20vw;
     padding-right: 2vw;
@@ -94,8 +97,8 @@ li a:hover:not(.active) {
 .banner {
     padding-top: 5vh;
     padding-bottom: 5vh;
-	height: 50vh;
-	width: 75vw;
+		height: 50vh;
+		width: 75vw;
     min-width: 200px;
     max-height: 300px;
 }
@@ -105,4 +108,108 @@ li a:hover:not(.active) {
     font-size: 10pt;
     font-style: italic;
     text-align: center;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: auto;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+.modal-content {
+  position: relative;
+  background-color: black;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+	right: 20%;
+  cursor: pointer;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img.demo {
+	width: 15vw;
+  opacity: 0.6;
+}
+
+.active, .demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

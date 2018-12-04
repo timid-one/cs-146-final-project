@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <link href="style.css" rel="stylesheet" type="text/css">
+<script src="index.js"></script>
 <html>
     <title>Home</title>
     <h1 class="header">Martin Garrix</h1>
     <body>
-        <div>   
+        <div>
             <ul>
                 <li><a href="home.html" class="active">Home</a></li>
                 <li><a href="media.html">Media</a></li>
@@ -22,15 +23,58 @@
             <div class="body-text">
                 After releasing a few tracks to websites such as Soundcloud and Beatport, Garrix was discovered by Tijs "Tiësto" Verjest, at the time one of the world's most popular DJs, in 2012. Tiesto supported and acted as a mentor to assist his entry into the competitive industry. In summer of 2013 Garrix released his track “Animals” which went platinum in 7 countries within mere few months. Before 2015 Garrix had only collaborated with fellow DJs and smaller vocalists, until “Don’t Look Down” featuring Usher was released in February of 2015, which became the first of many collaborations with mainstream pop stars. From that point on, he has published songs with Ed Sheeran, Dua Lipa, Khalid, Bebe Rexha, and has many more in the works including 2 unreleased tracks with Justin Bieber. In early 2016, Garrix Launched his own record label “STPMD RCRDS” under Sony Music.
             </div>
-            <div class="gallery">
-                <figure class="pictures">
-                    <img src="images/Tiesto-Martin-Garrix.jpg" class="pictures"/>
+            <div class="row">
+                <div class="column">
+                    <img src="images/Tiesto-Martin-Garrix.jpg" onclick="openModal();currentSlide(1)" class="pictures hover-shadow">
                     <figcaption class="caption-text">Garrix posing for a picture with Tiësto.</figcaption>
-                </figure>
-                <figure class="pictures">
-                    <img src="images/Martin-Garrix_Quinn_Tucker_Coachella_G0225014.jpg" class="pictures">
+                </div>
+                <div class="column">
+                    <img src="images/Martin-Garrix_Quinn_Tucker_Coachella_G0225014.jpg" onclick="openModal();currentSlide(2)" class="pictures hover-shadow">
                     <figcaption class="caption-text">Garrix performing a set at Coachella.</figcaption>
-                </figure>
+                </div>
+                <div class="column">
+                    <img src="images/Martin-Garrix3-1068x712.jpg" onclick="openModal();currentSlide(3)" class="pictures hover-shadow">
+                    <figcaption class="caption-text">Garrix posing at the Ultra China music festival.</figcaption>
+                </div>
+                <div class="column">
+                    <img src="images/martin-garrix-song-byte.jpg" onclick="openModal();currentSlide(4)" class="pictures hover-shadow">
+                    <figcaption class="caption-text">Garrix depicted in front of his logo.</figcaption>
+                </div>
+            </div>
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 4</div>
+                        <img src="images/Tiesto-Martin-Garrix.jpg" class="pictures">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 4</div>
+                        <img src="images/Martin-Garrix_Quinn_Tucker_Coachella_G0225014.jpg" class="pictures">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 4</div>
+                        <img src="images/Martin-Garrix3-1068x712.jpg" class="pictures">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="images/martin-garrix-song-byte.jpg" class="pictures">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    <div class="column">
+                        <img class="demo" src="images/Tiesto-Martin-Garrix.jpg" onclick="currentSlide(1)" alt="Bros">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="images/Martin-Garrix_Quinn_Tucker_Coachella_G0225014.jpg" onclick="currentSlide(2)" alt="Show">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="images/Martin-Garrix3-1068x712.jpg" onclick="currentSlide(3)" alt="Pose">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="images/martin-garrix-song-byte.jpg" onclick="currentSlide(4)" alt="Logo">
+                    </div>
+                </div>
             </div>
             <h3 class="header">Social Media</h3>
             <div class="grid-wrapper">
