@@ -1,23 +1,19 @@
 
 body {
-
-	background-image: url("images/logo.gif");
-	background-color: #000000;
-	background-repeat: repeat;
-	z-index: -1;
+	background-color: black;
 
 }
 
-
+h2{
+	color:white;
+	text-align: center;
+	font-size: 42pt;
+}
 #title {
 	text-align: center;
-	color: red;
+	color: white;
 	font-size: 500%;
-	font-family: arial;
 	font-weight: bold;
-	background-color: silver;
-	max-width: 100%;
-	max-height: 100%;
 }
 
 .navigation_bar {
@@ -50,13 +46,26 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: lightgray;
+		color: black;
 }
 
 
 img:hover {
-	box-shadow: 0 0 10px 10px red;
-	
+	box-shadow: 0 0 10px 10px white;
+
+}
+.center{
+    text-align: center;
+		align-items: center;
+		align-self: center;
+		align-content: center;
+}
+.disclaimer-text {
+    color: lightgray;
+    font-size: 10pt;
+    font-style: italic;
+    text-align: center;
 }
 
 img {
@@ -69,12 +78,20 @@ img {
 	display: block;
 	margin-left: 20px;
 	margin-right: 20px;
-    padding 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-
-	
+	padding 20px;
+	margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.shoplink {
+	display: block;
+	height: 250px;
+	width: 250px;
+	margin-left: 20px;
+	margin-right: 20px;
+  padding 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
