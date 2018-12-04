@@ -29,15 +29,15 @@ function France(){
 
 function displayprice(){
   var TicketPrices = document.getElementsByClassName("ticket");
-    
+
   for(var i = 0; i < TicketPrices.length; i++){
-  
+
     if (TicketPrices[i].style.display === "none") {
         TicketPrices[i].style.display = "table-cell";
     } else {
         TicketPrices[i].style.display = "none";
     }
-} 
+}
 }
 
 function displayvotes(){
@@ -45,7 +45,7 @@ function displayvotes(){
     document.getElementById("italy").innerHTML = "Italy: 37%";
     document.getElementById("france").innerHTML = "France: 39%";
     document.getElementById("thanks").innerHTML = "Thank you for voting!";
-    
+
 }
 
 function hideVotes(){
@@ -66,5 +66,5 @@ function submitComment() {
     node.style.borderTop = "solid 1pt black";
     node.style.padding = "3px";
 document.getElementById("insertComment").appendChild(node);
-
+document.getElementById("addComment").value = "";
 }
