@@ -195,7 +195,12 @@ th, td {
     margin: 0 auto;
     margin-top: 20px;
 }
-
+.disclaimer-text {
+    color: lightgray;
+    font-size: 10pt;
+    font-style: italic;
+    text-align: center;
+}
 button{
     margin-top: 15px;
 }
@@ -207,7 +212,11 @@ button{
 .Result{
     display: none;
 }
-
+h1{
+  color: white;
+  font-size: 37pt;
+  text-align: center;
+}
 #commentSection{
     width: 600px;
     background-color: #333;
@@ -579,3 +588,4 @@ button{
     margin: auto;
     margin-bottom: 15px;
     }
+}

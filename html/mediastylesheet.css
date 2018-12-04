@@ -10,6 +10,12 @@
 	height: auto;
 	width: auto;
 }
+.center{
+    text-align: center;
+		align-items: center;
+		align-self: center;
+		align-content: center;
+	}
 #title{
     color: white;
     text-align:center;
@@ -155,4 +161,19 @@ li a:hover:not(.active) {
 .active {
     background-color: lightgray;
     color: black;
+}
+.banner {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+		height: 50vh;
+		width: 75vw;
+    min-width: 200px;
+    max-height: 300px;
+}
+
+.disclaimer-text {
+    color: lightgray;
+    font-size: 10pt;
+    font-style: italic;
+    text-align: center;
 }
