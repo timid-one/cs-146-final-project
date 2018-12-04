@@ -1,13 +1,15 @@
 
-body {
-  background-color: black;
+body { 
+  background-image: url(cs-146-final-project-master/html/images/logo.gif)
+
 }
 
 #title {
-    color: white;
+    color: red;
     font-weight: bold;
     font-size: 42pt;
     text-align: center;
+    background-color: #333;
     margin: 0 auto;
     width: 800px;
     margin-top: 30px;
@@ -15,7 +17,7 @@ body {
 }
 
 h2{
-    color: white;
+    color: red;
     font-size: 40pt;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -34,7 +36,7 @@ img.profile{
     height: 200px;
     padding: 20px;
 }
-
+    
 
 ul {
     list-style-type: none;
@@ -61,8 +63,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-    color: black;
-    background-color: lightgray;
+    background-color: red;
 }
 
 #boxsize {
@@ -77,14 +78,14 @@ li a:hover:not(.active) {
 }
 
 #tourdatetext{
-    color: lightgray;
+    color: red;
     font-size: 16pt;
     align-content: center;
     font-weight: normal;
     width:auto;
     margin-bottom: 10px;
     justify-content: center;
-
+    
 }
 
 #tourback2{
@@ -95,12 +96,7 @@ li a:hover:not(.active) {
     margin-right: auto;
     text-align: center;
 }
-#top {
-  color: white;
-  text-align: center;
-  font-weight: bold;
-  font-size: 42pt;
-}
+
 .tourback{
     background-color: #333;
     height: auto;
@@ -110,14 +106,14 @@ li a:hover:not(.active) {
 }
 table{
     margin: 0 auto;
-
+    
 }
 table, th, td {
     border-bottom: 1pt solid black;
     padding: 10px;
     align-content: center;
-
-
+    
+    
 }
 th, td {
     padding: 10px;
@@ -129,7 +125,7 @@ th, td {
 #tourdates
 {
     color: black;
-    font: serif;
+    font: serif; 
     border: solid 1pt black;
     border-collapse: collapse;
 }
@@ -143,12 +139,12 @@ th, td {
 }
 
 #commentSectionText{
-    color: lightgray;
+    color: red;
     padding: 5px;
     font-size: 16pt;
     border-bottom: solid 1pt black;
     margin-bottom: 15px;
-
+    
 }
 
 #span{
@@ -161,7 +157,7 @@ th, td {
 }
 
 #submit {
-    background:none;
+    background:none; 
     background-color:green;
     border:1px solid darkgreen;
     color: #333;
@@ -174,11 +170,12 @@ th, td {
 }
 
 #commenttitle{
-    color: white;
+    color: red;
     font-size: 40pt;
     margin-bottom: 20px;
     margin-top: 20px;
     text-align: center;
+    background-color: #333;
     width: 450px;
     margin: 0 auto;
     margin-top:25px;
@@ -186,11 +183,12 @@ th, td {
 }
 
 #tabletitle{
-    color: white;
+    color: red;
     font-size: 40pt;
     margin-bottom: 20px;
     margin-top: 20px;
     text-align: center;
+    background-color: #333;
     width: 550px;
     margin: 0 auto;
     margin-top: 20px;
@@ -220,25 +218,24 @@ button{
     width: 360px;
     height: 500px;
     background-color: #333;
-    color: lightgray;
+    color: red;
     margin-right: 15px;
     font-size: 18pt;
     padding: 8px;
     text-align: center;
     margin-bottom: 15px;
-
+    
 }
 
 #comment{
-    color: black;
+    color: red;
     margin-left: 25px;
     background-color: #333;
     width: 360px;
     height:160px;
-    font-size: 40px;
+    font-size: 40px; 
     padding: 5px;
     margin-bottom: 15px;
-    text-align: center;
 }
 
 #thanks{
@@ -249,13 +246,13 @@ button{
     width: 360px;
     height: auto;
     background-color: #333;
-    color: lightgray;
+    color: red;
     margin-right: 15px;
     font-size: 18pt;
     padding: 8px;
     text-align: left;
     margin-bottom: 15px;
-
+    
 }
 
 #moveButton{
@@ -293,7 +290,7 @@ button{
 
 
 #ticketButton {
-    color: black;
+    color: red;
     background-color: white;
     border-color: red;
     height: 30px;
@@ -301,7 +298,7 @@ button{
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-
+    
 }
 
 #USbutton {
@@ -313,7 +310,7 @@ button{
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-
+    
 }
 
 #USbutton {
@@ -325,7 +322,7 @@ button{
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-
+    
 }
 
 #Italybutton {
@@ -337,7 +334,7 @@ button{
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-
+    
 }
 
 #Francebutton {
@@ -349,11 +346,103 @@ button{
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-
+    
 }
+
+@media screen and (max-width: 1485px){
+    
+    #commentSection{
+    width: 500px;
+    background-color: #333;
+    padding: 10px;
+    font-size: 20pt;
+    margin-bottom: 20pt;
+    }
+
+#vote{
+    width: 300px;
+    height: 500px;
+    background-color: #333;
+    color: red;
+    margin-right: 15px;
+    font-size: 18pt;
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+
+#comment{
+    color: red;
+    margin-left: 25px;
+    background-color: #333;
+    width: 300px;
+    height: 160px;
+    font-size: 40px; 
+    padding: 5px;
+    margin-bottom: 15px;
+}
+}
+
+@media screen and (max-width: 1275px){
+    
+    #commentSection{
+    width: 800px;
+    background-color: #333;
+    padding: 10px;
+    font-size: 20pt;
+    margin-bottom: 20pt;
+    flex-direction: column;
+    margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+#vote{
+    width: 500px;
+    height: 500px;
+    background-color: #333;
+    color: red;
+    margin-right: 15px;
+    font-size: 18pt;
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 15px;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+#comment{
+    color: red;
+    margin-left: 25px;
+    background-color: #333;
+    width: 500px;
+    height: 160px;
+    font-size: 40px; 
+    padding: 5px;
+    margin-bottom: 15px;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+}
+
+@media screen and (max-width: 900px){
+    #commentSection{
+    width: 800px;
+    background-color: #333;
+    padding: 10px;
+    font-size: 20pt;
+    margin-bottom: 20pt;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 15px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     #commenttitle{
-    color: lightgray;
+    color: red;
     font-size: 20pt;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -367,7 +456,7 @@ button{
 }
 @media screen and (max-width: 825px) {
     #title {
-    color: white;
+    color: red;
     font-weight: bold;
     font-size: 42pt;
     text-align: center;
@@ -377,29 +466,29 @@ button{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
+    
 }
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 
 @media screen and (max-width: 600px) {
     #tourdatetext{
-    color: lightgray;
+    color: red;
     font-size: 10pt;
     align-content: center;
     font-weight: normal;
     width: auto;
     margin-bottom: 10px;
     justify-content: left;
-
+    
 }
     #comment{
-    color: lightgray;
+    color: red;
     margin-left: 0px;
-
+    
 }
-
+    
     #tabletitle {
-    color: lightgray;
+    color: red;
     font-weight: bold;
     font-size: 20pt;
     text-align: center;
@@ -408,7 +497,7 @@ button{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
+    
 }
 
 @media screen and (max-width: 1385px){
@@ -417,11 +506,7 @@ button{
     height: 200px;
     padding: 20px;
 }
-
-
 }
-
-
 
 @media screen and (max-width: 1185px){
     img.profile{
@@ -429,7 +514,7 @@ button{
     height: 150px;
     padding: 20px;
 }
-
+  
 }
 
 @media screen and (max-width: 985px){
@@ -439,7 +524,7 @@ button{
     padding: 15px;
     flex-direction:column;
 }
-
+  
 }
 
 @media screen and (max-width: 785px){
@@ -450,6 +535,7 @@ button{
     flex-direction:column;
     margin: 0 auto;
 }
+}
 
 @media screen and (max-width: 707px){
     img.profile{
@@ -459,7 +545,6 @@ button{
     flex-direction:column;
     margin: 0 auto;
 }
-
 }
 
 @media screen and (max-width: 830px){
@@ -482,101 +567,6 @@ button{
     margin-right: auto;
     text-align: center;
 }
-    .tourback{
-    background-color: #333;
-    height: auto;
-    width: auto;
-    justify-content: space-around;
-    margin-left: auto;
-}
-}
-
-@media screen and (max-width: 1485px){
-
-    #commentSection{
-    width: 500px;
-    background-color: #333;
-    padding: 10px;
-    font-size: 20pt;
-    margin-bottom: 20pt;
-    }
-
-#vote{
-    width: 300px;
-    height: 500px;
-    background-color: #333;
-    color: grey;
-    margin-right: 15px;
-    font-size: 18pt;
-    padding: 8px;
-    text-align: center;
-    margin-bottom: 15px;
 
 }
 
-#comment{
-    color: lightgray;
-    margin-left: 25px;
-    background-color: #333;
-    width: 300px;
-    height: 160px;
-    font-size: 40px;
-    padding: 5px;
-    margin-bottom: 15px;
-}
-}
-
-@media screen and (max-width: 1275px){
-
-    #commentSection{
-    width: 800px;
-    background-color: #333;
-    padding: 10px;
-    font-size: 20pt;
-    margin-bottom: 20pt;
-    flex-direction: column;
-    margin: 0 auto;
-        margin-bottom: 15px;
-    }
-
-#vote{
-    width: 500px;
-    height: 500px;
-    background-color: #333;
-    color: white;
-    margin-right: 15px;
-    font-size: 24pt;
-    padding: 8px;
-    text-align: center;
-    margin-bottom: 15px;
-    flex-direction: column;
-    margin: 0 auto;
-    margin-bottom: 15px;
-}
-
-#comment{
-    color: white;
-    margin-left: 25px;
-    background-color: #333;
-    width: 500px;
-    height: 160px;
-    font-size: 40px;
-    padding: 5px;
-    margin-bottom: 15px;
-    flex-direction: column;
-    margin: 0 auto;
-    margin-bottom: 15px;
-}
-}
-
-@media screen and (max-width: 900px){
-    #commentSection{
-    width: 800px;
-    background-color: #333;
-    padding: 10px;
-    font-size: 20pt;
-    margin-bottom: 20pt;
-    flex-direction: column;
-    margin: auto;
-    margin-bottom: 15px;
-    }
