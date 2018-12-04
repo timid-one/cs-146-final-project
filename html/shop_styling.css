@@ -93,7 +93,7 @@ p {
     height: 100px;
     margin-left: 20px;
     font-size: 30px;
-
+    margin-right: 10px;
 }
 .block {
     background-color: transparent;
