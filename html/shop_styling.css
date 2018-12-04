@@ -2,22 +2,15 @@ div {
 
 }
 body {
-
-	background-image: url("images/logo.gif");
-	background-color: #000000;
-	background-repeat: repeat;
-	z-index: -1;
-
+	background-color: black;
 }
 
 
 #title {
 	text-align: center;
-	color: red;
+	color: white;
 	font-size: 500%;
-	font-family: arial;
 	font-weight: bold;
-	background-color: silver;
 	max-width: 100%;
 	max-height: 100%;
 }
@@ -45,7 +38,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    
+
 }
 
 li a:hover:not(.active) {
@@ -53,13 +46,18 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: lightgray;
+		color: black;
+}
+h1 {
+	font-size: 42pt;
+	color: white;
+	text-align: center;
 }
 
-
 img:hover {
-	box-shadow: 0 0 10px 10px red;
-	
+	box-shadow: 0 0 10px 10px white;
+
 }
 
 img {
@@ -75,7 +73,7 @@ img {
     text-align: left;
     display: inline;
 
-	
+
 }
 
 
@@ -84,16 +82,18 @@ p {
 }
 
 .text {
-    color: black;
+    color: lightgray;
     font-weight: bold;
-    display: inline;
     text-align: center;
-    margin-bottom: 50%;
-    position: absolute;
-    height: 100px;
     margin-left: 20px;
     font-size: 30px;
-    margin-right: 10px;
+
+}
+.disclaimer-text {
+    color: lightgray;
+    font-size: 10pt;
+    font-style: italic;
+    text-align: center;
 }
 .block {
     background-color: transparent;
@@ -105,42 +105,32 @@ p {
 }
 
 .white_border_img {
-    text-align: auto;
 
-}
-
-a {
 }
 
 .item {
     width: 100%;
     max-width: 700px;
-            background-color: burlywood;
 
 
 }
 
 .field {
-    
     display: block;
 }
 
 .price {
-    color: black;
-    text-align: right;
+    color: lightgray;
     font-size: 30px;
     font-weight: bold;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    
+
 
 }
 
 #subtitle{
     text-align: center;
     font-weight: bold;
+		color:lightgray;
     font-size: 30px;
-    background-color: azure;
-    color: black;
-    padding: 10px;
+    padding: 3px;
 }
