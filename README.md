@@ -1,5 +1,5 @@
 # CS 146 Final Project
-## Created by Pat Besser, Andrew Chinique, Javier Diaz, Austin Kim, and Shay McCarthy
+## Created by Pat Besser, Hazel Chinique, Javier Diaz, Austin Kim, and Shay McCarthy
 
 The goal of this project is to apply the fundamentals of project development in order to produce a website that provides some sort of unique service for a particular userbase.
 
